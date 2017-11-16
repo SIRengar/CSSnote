@@ -17,7 +17,7 @@ left:70px;}
 </head>
 <body>
 <div class="absolute>
-<img src=“https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510834526406&di=f81ce094e5d59e0e9098e6a7961bb47c&imgtype=0&src=http%3A%2F%2Fdown.52pk.com%2Fuploads%2Fallimg%2F170517%2F15441323I-0.jpg”>
+<h1>绝对位置<h1>
 </div>
 <p class="relative">相对位置</p>
 </body>
