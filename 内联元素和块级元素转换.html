@@ -1,0 +1,29 @@
+<!--
+内联元素只需要必要的宽度，不强制转行。例如：<span>、<a>
+块级元素是一个元素，占用了全部宽度，在前后都是换行符。例如：<h1>、<p>、<div>
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>内联和块级</title>
+<style>
+.inline{
+display:inline;}
+.block{
+display:block;}
+</style>
+</head>
+<body>
+<div class="inline">
+<p>第一个段落</p>
+<p>第二个段落</p>
+<p>第三个段落</p>
+</div>
+<div class="block">
+<p><span>first</span>
+<span>second</span>
+<span>third</span>
+</div>
+</body>
+</html>
