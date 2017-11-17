@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>相邻兄弟选择器</title>
+<style>
+div+p {
+background-color:green;}
+</style>
+</head>
+<body>
+<div>
+<h1>在div里的标题</h1>
+<p>在div里的段落</p>
+</div>
+<p>不在div里的段落</p>
+<p>不在div里的段落2</p>
+</body>
+</html>
