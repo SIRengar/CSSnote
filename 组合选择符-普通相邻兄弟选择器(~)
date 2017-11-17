@@ -5,7 +5,7 @@
 <title>普通相邻兄弟选择器</title>
 <style>
 div~p{
-background-color;}
+background-color:green;}
 </style>
 </head>
 <body>
