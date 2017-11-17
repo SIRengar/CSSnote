@@ -5,15 +5,18 @@
 <title>float replace table</title>
 <style>
 div.container{
-width:100%;
+width:400px;
 margin:0px;
-background-color:yellow
+background-color:yellow;
 border:1.5px solid black;}
 div.header,div.footer{
 padding:0.5em;
 background-color:black;
 color:white;
 clear:left;}
+p.footer{
+text-align:right;
+font-size:0.25em;}
 div.left{
 float:left;
 width:150px;
@@ -26,11 +29,15 @@ color:white;
 margin:0;
 padding:0;}
 div.content{
-margin-left:170px;
+margin-left:80px;
 border-left:1px solid red;
 padding:0.5em;}
 img{
-
+width:60px;
+height:60px;
+padding-top:20px;
+padding-left:3px;
+}
 </style>
 </head>
 <body>
@@ -41,7 +48,7 @@ img{
 <h2>禁止进入</h2>
 <p>Keep out</p>
 </div>
-<div class="footer">
-Copyright 2017 By SIRengar</div>
+<div class="footer"><p class="footer">
+Copyright 2017 By SIRengar</p></div>
 </body>
 </html>
