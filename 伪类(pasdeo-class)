@@ -4,10 +4,13 @@
 <meta charset="utf-8">
 <title>伪类(pasdeo-class)</title>
 <style>
+a{
+trasition:color 2s;
+-webkit-transition:color 2s;}
 a:link{
 color:black;}/*未访问的链接*/
 a:visited{
-color:bule;}/*已经浏览的链接*/
+color:yellow;}/*已经浏览的链接*/
 a:hover{
 color:gray;}/*鼠标滑过的链接*/
 a:active{
