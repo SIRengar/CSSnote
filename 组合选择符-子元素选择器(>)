@@ -14,6 +14,9 @@ background-color:green;}
 <i>Italic</i></p></div>
 <div>
 <p>normal</p>
-<p><b>bold</b></p></div>
+<b><p>bold</p></b></div>
+<div>
+<p><i>Italic</i><p>
+</div>
 </body>
 </html>
