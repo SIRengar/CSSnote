@@ -16,7 +16,7 @@ left:70px;}
 </style>
 </head>
 <body>
-<div class="absolute>
+<div class="absolute">
 <h1>绝对位置<h1>
 </div>
 <p class="relative">相对位置</p>
