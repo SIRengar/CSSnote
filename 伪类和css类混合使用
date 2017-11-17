@@ -4,15 +4,15 @@
 <meta charset="utf-8">
 <title>伪类和css类</title>
 <style>
-p:fist-child+i{
-color:bule;}
-z:lang(no){
-quotes:"?""?";}
+p:first-child i {
+color:blue;}
+q:lang(no){
+quotes: "~" "~";}
 </style>
 </head>
 <body>
-<p>everything<z lang(no)>yes</z><i>no</i><p>
-<p>everything<z lang(no)>yes</z><i>no</i><p>
-<p>everything<z lang(no)>yes</z><i>no</i><p>
+<p>everything<q lang="no">yes</q><i>no</i><p>
+<p>everything<q lang="no">yes</q><i>no</i><p>
+<p>everything<q lang="no">yes</q><i>no</i><p>
 </body>
 </html>
