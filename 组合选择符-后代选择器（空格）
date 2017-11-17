@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>后代选择符</title>
+<style>
+div p {
+background-color:green}
+</style>
+</head>
+<body>
+<div><p><b>Bold</b></p></div>
+<div><p><i>Italic</i></p></div>
+<div><p>Normal<p></div>
+</body>
+</html>
