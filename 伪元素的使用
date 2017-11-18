@@ -4,4 +4,15 @@
 <meta charset="utf-8">
 <title>伪元素</title>
 <style>
-p.first:first-letter:
+p:first-letter{
+color:red;
+font-size:xx-large;}
+p:first-line{
+color:gray;
+font-variant:small-caps;}
+</style>
+</head>
+<body>
+<p>don't give up on your dream!emmmmmm....keep sleeping~</p>
+</body>
+</html>
