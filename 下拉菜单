@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>下拉菜单</title>
+	<style type="text/css">
+		.dropbtn{
+			background-color: red;
+			color: white;
+			padding:16px;
+			font-size: 16px;
+			border: none;
+			cursor: pointer;
+		}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+		.dropdown-content a:hover {
+			background-color: white;
+		}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: yellow;
+    color: black;
+}
+
+	</style>
+</head>
+<body>
+<div class="dropdown">
+  <button class="dropbtn">Warning</button>
+		<div class="dropdown-content">
+			<a href="#">内容1</a>
+			<a href="#">内容2</a>
+			<a href="#">内容3</a>
+		</div>
+	</div>
+</body>
+</html>
