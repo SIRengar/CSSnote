@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>下拉导航栏</title>
+	<style type="text/css">
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+		li{
+			float: left;
+		}
+		li a, .dropbtn {
+			display: inline-block;
+			color: white;
+			text-decoration: none;
+			text-align: center;
+			padding: 14px 14px;
+
+		}
+		li a:hover, .dropdown:hover .dropbtn {
+			background-color: #111;
+		}
+		.dropdown{
+			display: inline-block;
+		}
+		.dropdown-content{
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 100%;
+			border: black solid 1px;
+			box-shadow: 0px 16px 8px 0px rgba(0,0,0,0,2);
+		}
+		.dropdown-content a{
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+		.dropdown-content a:hover {
+			background-color: #f1f1f1;
+		}
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li>
+			<a class="active" href="#">主页</a>
+		</li>
+		<li>
+			<a href="#">介绍</a>
+		</li>
+		<div class="dropdown">
+			<a href="#" class="dropbtn">产品分类</a>
+			<div class="dropdown-content">
+				<a href="#">I级</a>
+				<a href="#">II级</a>
+				<a href="">III级</a>
+			</div>
+		</div>
+	</ul>
+	
+</body>
+</html>
