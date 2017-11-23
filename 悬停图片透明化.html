@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>悬停图片透明化</title>
+	<style type="text/css">
+		img{
+			padding: 0;
+			margin: 0;
+			opacity: 0.4;
+			filter:alpha(opacity=40);
+		}
+		img:hover
+		{
+			opacity: 1.0;
+			filter: alpha(opacity=100);
+		}
+	</style>
+</head>
+<body>
+	<img src="*.png"> /* "*.png"为任意图片 */
+</body>
+</html>
